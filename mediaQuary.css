@@ -1,0 +1,27 @@
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  .banner_text {
+    width: 440px;
+  }
+  .teams {
+    flex-direction: column;
+  }
+  .teams_image {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teams_feauters {
+    margin: 20px auto;
+  }
+  .facts_card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    justify-content: center;
+  }  
+  .facts_card{
+     justify-content: center; 
+     align-items: center;
+  }
+}
