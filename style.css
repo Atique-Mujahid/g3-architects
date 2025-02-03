@@ -133,11 +133,16 @@ main > section {
 /* love part desgin  */
 .l-r {
   justify-content: space-between;
+  gap: 100px;
+  align-items: center;
 }
 .tilte {
   width: 470px;
 }
-
+.highlight-text{
+  border-left: 5px solid #ff900e ;
+  padding-left:20px ;
+}
 .tilte h2 {
   font-size: 2.9rem;
   font-style: normal;
@@ -184,8 +189,33 @@ main > section {
 }
 .right img {
   width: 100%;
+  
 }
-
+#badge{
+  padding: 30px 70px;
+  background: #ff900e;
+  border: none;
+  border-radius: 8px;
+  margin-left: -50px;
+  margin-top: -100px;
+  font: 1.25rem;
+  font-weight: 500;
+}
+#badgetitle{
+  color: #FFF;
+  text-align: center;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 107.692% */
+}
+#badgetitle2{
+  color: #FFF;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
 /* facts desgin starts  */
 .facts_tilte {
   margin-bottom: 70px;
